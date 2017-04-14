@@ -1,3 +1,7 @@
-body {
-  background: #0e0e0e;
+.top, .middle, .content {
+  text-align: center;
+}
+
+.bottom {
+  text-align: left;
 }
