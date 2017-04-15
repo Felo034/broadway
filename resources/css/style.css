@@ -1,5 +1,13 @@
+/* Tag */
+
+a, .top, .middle, .bottom {
+  color: white;
+}
+
 h1 {
   font-size: 70px;
+  margin: 0px;
+  padding: 0px;
 }
 
 h2 {
@@ -22,13 +30,7 @@ p {
   font-size: 14px;
 }
 
-#menu {
-  font-size: 18px;
-}
-
-#bottom {
-  font-size: 11px;
-}
+/* Class */
 
 .bottom {
   background-color: dimgray;
@@ -37,12 +39,11 @@ p {
 
 .middle {
   vertical-align: middle;
-
 }
 
 .top, .middle {
   background-image: url("../images/the-flatiron-building.png");
-  background-position: center;
+  /*background-position: center;*/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -51,6 +52,12 @@ p {
   text-align: center;
 }
 
-.top, .middle, .bottom {
-  color: white;
+/* ID */
+
+#menu {
+  font-size: 18px;
+}
+
+#bottom {
+  font-size: 11px;
 }
